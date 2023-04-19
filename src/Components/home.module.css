@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb( 33, 41, 66 ) ;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.create{
+    width: 50%;
+    height:80px;
+    padding-left: 25%;
+    padding-top: 36px;
+    background-color: black;
+}
+.user{
+    width: 50%;
+    height:80px;
+    padding-left: 25%;
+    padding-top: 36px;
+    background-color: black;
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    /* text-shadow: 0px 0px 5px white; */
+
+}
+
+#createuser{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+#createuser>.craeteuserdiv{
+    border: 1px solid rgb( 33, 41, 66 );
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px black ;
+    height: 400px;
+    width: 350px;
+    background-color: rgb( 33, 41, 66 );
+}
+#createuser>.craeteuserdiv>.form>input{
+  display: block;
+  margin: 10px auto;
+  background: #262e49;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  width: 320px;
+  outline: none;
+  color: #d6d6d6;
+}
+#createuser>.craeteuserdiv>.form>h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 33px;
+  color: #a1a4ad;
+  letter-spacing: 1.5px;
+  padding-left: 34px;
+  padding-top: 20px;
+}
+#heading{
+    border: 1px solid white;
+}
+#usertabe{
+    padding-top: 20px;
+    padding-left: 45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.app{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+table {
+    
+    border: 2px dotted white;
+    width: 800px;
+    height: auto;
+    margin-top: 100px
+  }
+
+  th {
+    border-bottom: 2px dashed rgb(255, 255, 255);
+    border-right: 2px dashed white;
+    color: white;
+    height: 30px;
+  }
+    
+  td {
+    border-bottom:1px solid whitesmoke;
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+    height: 30px;
+  }
+
+  #edit:hover{
+    text-shadow:2px 2px 5px whitesmoke;
+  }
+  #delete:hover{
+    text-shadow:2px 2px 5px whitesmoke;
+  }
+  #createuser>.craeteuserdiv>.form>#submit:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+  #createuser>.craeteuserdiv>.form>#submit:active{
+    background-color: #a1a4ad;
+  }
